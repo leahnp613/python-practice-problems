@@ -7,17 +7,18 @@
 #
 # Pseudocode is available for you
 
+
 def calculate_sum(values):
     # If there are no items in the list of values
-    if len(values) == 0:                                # solution
+    if len(values) == 0:  # solution
         # return None
-        return None                                     # solution
+        return None  # solution
     # sum = 0
-    sum = 0                                             # solution
+    sum = 0  # solution
     # for each item in the list of values
-    for item in values:                                 # solution
+    for item in values:  # solution
         # add it to the sum
-        sum = sum + item                                # solution
+        sum = sum + item  # solution
     # return the sum
-    return sum                                          # solution
+    return sum  # solution
     # pass                                              # problem

@@ -7,13 +7,14 @@
 #
 # Pseudocode is there to guide you.
 
+
 def is_divisible_by_3(number):
     # If number is divisible by 3
-    if number % 3 == 0:                                 # solution
+    if number % 3 == 0:  # solution
         # return "fizz"
-        return "fizz"                                   # solution
+        return "fizz"  # solution
     # Otherwise
-    else:                                               # solution
+    else:  # solution
         # return the number
-        return number                                   # solution
+        return number  # solution
     # pass                                              # problem

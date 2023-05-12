@@ -6,4 +6,3 @@
 #             otherwise, returns numerator / denominator
 #
 # Don't for get to import math!
-

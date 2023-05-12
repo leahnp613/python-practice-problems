@@ -4,18 +4,19 @@
 #
 # There is pseudocode to guide you.
 
+
 def has_quorum(attendees_list, members_list):
     # num_attendees = the number of attendees
-    num_attendees = len(attendees_list)                 # solution
+    num_attendees = len(attendees_list)  # solution
     # num_members = the number of members
-    num_members = len(members_list)                     # solution
+    num_members = len(members_list)  # solution
     # If the num_attendees divided by the num_members is
     # greater than 0.5
-    if num_attendees / num_members >= 0.5:              # solution
+    if num_attendees / num_members >= 0.5:  # solution
         # return True
-        return True                                     # solution
+        return True  # solution
     # Otherwise
-    else:                                               # solution
+    else:  # solution
         # return False
-        return False                                    # solution
+        return False  # solution
     # pass                                              # problem

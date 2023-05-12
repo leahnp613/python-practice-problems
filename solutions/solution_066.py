@@ -20,21 +20,21 @@
 
 
 # class Book
-class Book:                                     # solution
+class Book:  # solution
     # method initializer method with required state
     # parameters author and title
-    def __init__(self, author, title):          # solution
+    def __init__(self, author, title):  # solution
         # set self.author = author
-        self.author = author                    # solution
+        self.author = author  # solution
         # set self.title = title
-        self.title = title                      # solution
+        self.title = title  # solution
 
     # method get_author(self)
-    def get_author(self):                       # solution
+    def get_author(self):  # solution
         # returns "Author: " + self.author
-        return "Author: " + self.author         # solution
+        return "Author: " + self.author  # solution
 
     # method get_title(self)
-    def get_title(self):                        # solution
+    def get_title(self):  # solution
         # returns "Title: " + self.title
-        return "Title: " + self.title           # solution
+        return "Title: " + self.title  # solution

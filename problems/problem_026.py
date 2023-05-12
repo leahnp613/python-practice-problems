@@ -12,5 +12,6 @@
 #     and less than 70
 #   * An "F" for any other average
 
+
 def calculate_grade(values):
     pass

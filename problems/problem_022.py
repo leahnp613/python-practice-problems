@@ -6,5 +6,6 @@
 #   * If it is not a workday, the list needs to contain
 #     "surfboard"
 
+
 def gear_for_day(is_workday, is_sunny):
     pass

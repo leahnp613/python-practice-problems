@@ -20,13 +20,13 @@
 import math
 
 # class Circle
-    # method initializer with radius
-        # if radius is less than 0
-            # raise ValueError
-        # self.radius = radius
+# method initializer with radius
+# if radius is less than 0
+# raise ValueError
+# self.radius = radius
 
-    # method calculate_perimeter(self)
-        # returns 2 * math.pi * self.radius
+# method calculate_perimeter(self)
+# returns 2 * math.pi * self.radius
 
-    # method calculate_area(self)
-        # returns math.pi * (self.radius squared)
+# method calculate_area(self)
+# returns math.pi * (self.radius squared)

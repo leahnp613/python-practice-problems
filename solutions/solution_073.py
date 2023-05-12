@@ -23,15 +23,16 @@
 # at the last one you just wrote unless you really must.
 
 
-class Student:                                              # solution
-    def __init__(self, name):                               # solution
-        self.name = name                                    # solution
-        self.scores = []                                    # solution
+class Student:  # solution
 
-    def add_score(self, score):                             # solution
-        self.scores.append(score)                           # solution
+    def __init__(self, name):  # solution
+        self.name = name  # solution
+        self.scores = []  # solution
 
-    def get_average(self):                                  # solution
-        if len(self.scores) == 0:                           # solution
-            return None                                     # solution
-        return sum(self.scores) / len(self.scores)          # solution
+    def add_score(self, score):  # solution
+        self.scores.append(score)  # solution
+
+    def get_average(self):  # solution
+        if len(self.scores) == 0:  # solution
+            return None  # solution
+        return sum(self.scores) / len(self.scores)  # solution

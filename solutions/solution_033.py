@@ -15,11 +15,12 @@
 # Write out some pseudocode before trying to solve the
 # problem to get a good feel for how to solve it.
 
+
 def sum_of_first_n_even_numbers(n):
-    if n < 0:                                           # solution
-        return None                                     # solution
-    sum = 0                                             # solution
-    for i in range(n + 1):                              # solution
-        sum = sum + i * 2                               # solution
-    return sum                                          # solution
+    if n < 0:  # solution
+        return None  # solution
+    sum = 0  # solution
+    for i in range(n + 1):  # solution
+        sum = sum + i * 2  # solution
+    return sum  # solution
     # pass                                              # problem

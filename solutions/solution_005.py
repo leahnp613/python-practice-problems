@@ -7,14 +7,15 @@
 #
 # Pseudocode is provided for you to guide you along the way.
 
+
 def can_skydive(age, has_consent_form):
     # If the age is greater than or equal to 18 or they
     # have a consent form
-    if age >= 18 or has_consent_form:                           # solution
+    if age >= 18 or has_consent_form:  # solution
         # Return True
-        return True                                             # solution
+        return True  # solution
     # Otherwise,
-    else:                                                       # solution
+    else:  # solution
         # Return False
-        return False                                            # solution
+        return False  # solution
     # pass                                                      # problem

@@ -25,13 +25,14 @@
 #
 # This problem has pseudocode to guide you.
 
+
 def pad_left(number, length, pad):
     # s = convert number to a string
-    s = str(number)                                     # solution
+    s = str(number)  # solution
     # while the length of s is less than length
-    while len(s) < length:                              # solution
+    while len(s) < length:  # solution
         # s = pad + s
-        s = pad + s                                     # solution
+        s = pad + s  # solution
     # return s
-    return s                                            # solution
+    return s  # solution
     # pass                                              # problem

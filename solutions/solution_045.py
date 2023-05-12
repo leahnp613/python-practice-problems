@@ -27,19 +27,20 @@
 # There is pseudocode to guide you. Make sure you understand
 # what's going on, here, before continuing.
 
+
 def make_sentences(subjects, verbs, objects):
     # sentences = new empty list
-    sentences = []                                      # solution
+    sentences = []  # solution
     # for each subject in subjects
-    for subject in subjects:                            # solution
+    for subject in subjects:  # solution
         # for each verb in verbs
-        for verb in verbs:                              # solution
+        for verb in verbs:  # solution
             # for each object in objects
-            for object in objects:                      # solution
+            for object in objects:  # solution
                 # sentence = subject + " " + verb + " " + object
-                sentence = subject + " " + verb + " " + object      # solution
+                sentence = subject + " " + verb + " " + object  # solution
                 # append sentence to sentences
-                sentences.append(sentence)              # solution
+                sentences.append(sentence)  # solution
     # return sentences
-    return sentences                                    # solution
+    return sentences  # solution
     # pass                                              # problem

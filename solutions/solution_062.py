@@ -23,12 +23,13 @@
 #     * inputs:  10, "/", 12
 #       result:  0.8333333333333334
 
-def basic_calculator(left, op, right):      # solution
-    if op == "+":                           # solution
-        return left + right                 # solution
-    if op == "-":                           # solution
-        return left - right                 # solution
-    if op == "*":                           # solution
-        return left * right                 # solution
-    if op == "/":                           # solution
-        return left / right                 # solution
+
+def basic_calculator(left, op, right):  # solution
+    if op == "+":  # solution
+        return left + right  # solution
+    if op == "-":  # solution
+        return left - right  # solution
+    if op == "*":  # solution
+        return left * right  # solution
+    if op == "/":  # solution
+        return left / right  # solution

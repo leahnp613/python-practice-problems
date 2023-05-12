@@ -22,15 +22,17 @@
 # Do it without pseudocode, this time, from memory. Don't look
 # at the last one you just wrote unless you really must.
 
-class BankAccount:                                          # solution
-    def __init__(self, balance):                            # solution
-        self.balance = balance                              # solution
 
-    def get_balance(self):                                  # solution
-        return self.balance                                 # solution
+class BankAccount:  # solution
 
-    def withdraw(self, amount):                             # solution
-        self.balance -= amount                              # solution
+    def __init__(self, balance):  # solution
+        self.balance = balance  # solution
 
-    def deposit(self, amount):                              # solution
-        self.balance += amount                              # solution
+    def get_balance(self):  # solution
+        return self.balance  # solution
+
+    def withdraw(self, amount):  # solution
+        self.balance -= amount  # solution
+
+    def deposit(self, amount):  # solution
+        self.balance += amount  # solution

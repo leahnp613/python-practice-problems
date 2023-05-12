@@ -23,25 +23,25 @@
 
 
 # class Student
-class Student:                                              # solution
+class Student:  # solution
     # method initializer with required state "name"
-    def __init__(self, name):                               # solution
+    def __init__(self, name):  # solution
         # self.name = name
-        self.name = name                                    # solution
+        self.name = name  # solution
         # self.scores = [] because its an internal state
-        self.scores = []                                    # solution
+        self.scores = []  # solution
 
     # method add_score(self, score)
-    def add_score(self, score):                             # solution
+    def add_score(self, score):  # solution
         # appends the score value to self.scores
-        self.scores.append(score)                           # solution
+        self.scores.append(score)  # solution
 
     # method get_average(self)
-    def get_average(self):                                  # solution
+    def get_average(self):  # solution
         # if there are no scores in self.scores
-        if len(self.scores) == 0:                           # solution
+        if len(self.scores) == 0:  # solution
             # return None
-            return None                                     # solution
+            return None  # solution
         # returns the sum of the scores divided by
         # the number of scores
-        return sum(self.scores) / len(self.scores)          # solution
+        return sum(self.scores) / len(self.scores)  # solution

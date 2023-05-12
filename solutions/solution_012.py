@@ -10,13 +10,14 @@
 # Try to combine what you have done in the last two problems
 # from memory.
 
+
 def fizzbuzz(number):
-    if number % 5 == 0 and number % 3 == 0:             # solution
-        return "fizzbuzz"                               # solution
-    elif number % 3 == 0:                               # solution
-        return "fizz"                                   # solution
-    elif number % 5 == 0:                               # solution
-        return "buzz"                                   # solution
-    else:                                               # solution
-        return number                                   # solution
+    if number % 5 == 0 and number % 3 == 0:  # solution
+        return "fizzbuzz"  # solution
+    elif number % 3 == 0:  # solution
+        return "fizz"  # solution
+    elif number % 5 == 0:  # solution
+        return "buzz"  # solution
+    else:  # solution
+        return number  # solution
     # pass                                              # problem

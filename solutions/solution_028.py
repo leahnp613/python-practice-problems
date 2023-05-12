@@ -12,15 +12,16 @@
 #
 # There is some pseudocode to guide you.
 
+
 def remove_duplicate_letters(s):
     # result = new empty string
-    result = ""                                         # solution
+    result = ""  # solution
     # for every letter in the string s
-    for letter in s:                                    # solution
+    for letter in s:  # solution
         # if the letter is not in the result
-        if letter not in result:                        # solution
+        if letter not in result:  # solution
             # add it to the end of the result
-            result = result + letter                    # solution
+            result = result + letter  # solution
     # return the result
-    return result                                       # solution
+    return result  # solution
     # pass                                              # problem

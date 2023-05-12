@@ -20,13 +20,14 @@
 # at the last one you just wrote unless you really must.
 
 
-class Book:                                     # solution
-    def __init__(self, author, title):          # solution
-        self.author = author                    # solution
-        self.title = title                      # solution
+class Book:  # solution
 
-    def get_author(self):                       # solution
-        return "Author: " + self.author         # solution
+    def __init__(self, author, title):  # solution
+        self.author = author  # solution
+        self.title = title  # solution
 
-    def get_title(self):                        # solution
-        return "Title: " + self.title           # solution
+    def get_author(self):  # solution
+        return "Author: " + self.author  # solution
+
+    def get_title(self):  # solution
+        return "Title: " + self.title  # solution

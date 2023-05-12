@@ -17,9 +17,10 @@
 #
 # Remember that a dictionary has the ".get" method on it.
 
+
 def translate(key_list, dictionary):
-    result = []                                         # solution
-    for key in key_list:                                # solution
-        result.append(dictionary.get(key))              # solution
-    return result                                       # solution
+    result = []  # solution
+    for key in key_list:  # solution
+        result.append(dictionary.get(key))  # solution
+    return result  # solution
     # pass                                              # problem

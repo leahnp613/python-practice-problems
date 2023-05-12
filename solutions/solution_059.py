@@ -15,10 +15,12 @@
 #     and 7 into a list
 #   * Use random.choice to select one
 
-import random                               # solution
-def specific_random():                      # noqa # solution
-    good_numbers = []                       # solution
-    for i in range(1, 500):                 # solution
-        if i % 35 == 0:                     # solution
-            good_numbers.append(i)          # solution
-    return random.choice(good_numbers)      # solution
+import random  # solution
+
+
+def specific_random():  # noqa # solution
+    good_numbers = []  # solution
+    for i in range(1, 500):  # solution
+        if i % 35 == 0:  # solution
+            good_numbers.append(i)  # solution
+    return random.choice(good_numbers)  # solution

@@ -14,13 +14,14 @@
 #
 # There is pseudocode to guide you.
 
+
 def reverse_dictionary(dictionary):
     # new_dictionary = new empty dictionary
-    new_dictionary = {}                                 # solution
+    new_dictionary = {}  # solution
     # for each key, value in dictionary.items()
-    for key, value in dictionary.items():               # solution
+    for key, value in dictionary.items():  # solution
         # new_dictionary[value] = key
-        new_dictionary[value] = key                     # solution
+        new_dictionary[value] = key  # solution
     # return new_dictionary
-    return new_dictionary                               # solution
+    return new_dictionary  # solution
     # pass                                              # problem

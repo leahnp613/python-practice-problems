@@ -9,11 +9,12 @@
 # It used the built-in function reversed and the join method
 # for string objects.
 
+
 def is_palindrome(word):
-    reversed_list_of_letters = reversed(word)                   # solution
-    reversed_word = "".join(reversed_list_of_letters)           # solution
-    if reversed_word == word:                                   # solution
-        return True                                             # solution
-    else:                                                       # solution
-        return False                                            # solution
+    reversed_list_of_letters = reversed(word)  # solution
+    reversed_word = "".join(reversed_list_of_letters)  # solution
+    if reversed_word == word:  # solution
+        return True  # solution
+    else:  # solution
+        return False  # solution
     # pass                                                      # problem

@@ -15,5 +15,6 @@
 # Write out some pseudocode before trying to solve the
 # problem to get a good feel for how to solve it.
 
+
 def sum_of_first_n_even_numbers(n):
     pass

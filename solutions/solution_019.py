@@ -17,14 +17,15 @@
 # Do it without pseudocode, this time, from memory. Don't look
 # at number 017 that you just wrote unless you really must.
 
+
 def is_inside_bounds(x, y, rect_x, rect_y, rect_width, rect_height):
-    if (                                                # solution
-        x >= rect_x                                     # solution
-        and y >= rect_y                                 # solution
-        and x <= rect_x + rect_width                    # solution
-        and y <= rect_y + rect_height                   # solution
-    ):                                                  # solution
-        return True                                     # solution
-    else:                                               # solution
-        return False                                    # solution
+    if (  # solution
+            x >= rect_x  # solution
+            and y >= rect_y  # solution
+            and x <= rect_x + rect_width  # solution
+            and y <= rect_y + rect_height  # solution
+    ):  # solution
+        return True  # solution
+    else:  # solution
+        return False  # solution
     # pass                                              # problem

@@ -8,8 +8,9 @@
 # Write out some pseudocode before trying to solve the
 # problem to get a good feel for how to solve it.
 
+
 def minimum_value(value1, value2):
-    # compare values 
+    # compare values
     if value1 < value2:
         return value1
     else:
@@ -23,7 +24,6 @@ print(return_value)
 #if value 1 is bigger, then return it
 #if value 2 is bigger, then return it
 
-
-#function needs to be called 
+#function needs to be called
 #get the result
 #  print the result

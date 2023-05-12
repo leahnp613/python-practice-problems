@@ -19,23 +19,24 @@
 
 import math
 
+
 # class Circle
-class Circle:                                       # solution
+class Circle:  # solution
     # method initializer with radius
-    def __init__(self, radius):                     # solution
+    def __init__(self, radius):  # solution
         # if radius is less than 0
-        if radius < 0:                              # solution
+        if radius < 0:  # solution
             # raise ValueError
-            raise ValueError                        # solution
+            raise ValueError  # solution
         # self.radius = radius
-        self.radius = radius                        # solution
+        self.radius = radius  # solution
 
     # method calculate_perimeter(self)
-    def calculate_perimeter(self):                  # solution
+    def calculate_perimeter(self):  # solution
         # returns 2 * math.pi * self.radius
-        return 2 * math.pi * self.radius            # solution
+        return 2 * math.pi * self.radius  # solution
 
     # method calculate_area(self)
-    def calculate_area(self):                       # solution
+    def calculate_area(self):  # solution
         # returns math.pi * (self.radius squared)
-        return math.pi * pow(self.radius, 2)        # solution
+        return math.pi * pow(self.radius, 2)  # solution

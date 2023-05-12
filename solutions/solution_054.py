@@ -15,7 +15,8 @@
 #    * input:   "raise"
 #      RAISES:  ValueError
 
-def check_input(input):             # solution
-    if input == "raise":            # solution
-        raise ValueError            # solution
-    return input                    # solution
+
+def check_input(input):  # solution
+    if input == "raise":  # solution
+        raise ValueError  # solution
+    return input  # solution

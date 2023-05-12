@@ -9,13 +9,14 @@
 # Do it without pseudocode, this time, from memory. Don't look
 # at the last one you just wrote unless you really must.
 
+
 def gear_for_day(is_workday, is_sunny):
-    gear = []                                           # solution
-    if is_workday and not is_sunny:                     # solution
-        gear.append("umbrella")                         # solution
-    if is_workday:                                      # solution
-        gear.append("laptop")                           # solution
-    else:                                               # solution
-        gear.append("surfboard")                        # solution
-    return gear                                         # solution
+    gear = []  # solution
+    if is_workday and not is_sunny:  # solution
+        gear.append("umbrella")  # solution
+    if is_workday:  # solution
+        gear.append("laptop")  # solution
+    else:  # solution
+        gear.append("surfboard")  # solution
+    return gear  # solution
     # pass                                              # problem

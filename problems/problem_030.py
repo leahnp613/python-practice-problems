@@ -11,5 +11,6 @@
 # Write out some pseudocode before trying to solve the
 # problem to get a good feel for how to solve it.
 
+
 def find_second_largest(values):
     pass

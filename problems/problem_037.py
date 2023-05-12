@@ -23,5 +23,6 @@
 #     pad:    " "
 #     result: "   19"
 
+
 def pad_left(number, length, pad):
     pass

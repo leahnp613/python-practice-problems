@@ -13,9 +13,10 @@
 #     * input:   [1, 3, 5, 7]
 #       returns: [1, 3, 5, 7]
 
-def only_odds(nums):                # solution
-    output = []                     # solution
-    for num in nums:                # solution
-        if num % 2 == 1:            # solution
-            output.append(num)      # solution
-    return output                   # solution
+
+def only_odds(nums):  # solution
+    output = []  # solution
+    for num in nums:  # solution
+        if num % 2 == 1:  # solution
+            output.append(num)  # solution
+    return output  # solution

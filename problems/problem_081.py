@@ -40,5 +40,3 @@
 #
 # Behavior:
 #    * speak()          # Returns the string "Sssssss!"
-
-

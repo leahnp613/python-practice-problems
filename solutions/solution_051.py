@@ -7,10 +7,12 @@
 #
 # Don't for get to import math!
 
-import math                                     # solution
-                                                # noqa # solution
-                                                # noqa # solution
-def safe_divide(numerator, denominator):        # noqa # solution
-    if denominator == 0:                        # solution
-        return math.inf                         # solution
-    return numerator / denominator              # solution
+import math  # solution
+
+
+# noqa # solution
+# noqa # solution
+def safe_divide(numerator, denominator):  # noqa # solution
+    if denominator == 0:  # solution
+        return math.inf  # solution
+    return numerator / denominator  # solution

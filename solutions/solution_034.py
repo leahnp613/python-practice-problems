@@ -22,21 +22,22 @@
 #
 # This problem has pseudocode to guide you.
 
+
 def count_letters_and_digits(s):
     # number of letters = 0
-    num_letters = 0                                     # solution
+    num_letters = 0  # solution
     # number of digits = 0
-    num_digits = 0                                      # solution
+    num_digits = 0  # solution
     # for each character c in s
-    for c in s:                                         # solution
+    for c in s:  # solution
         # if the character c is a digit (c.isdigit())
-        if c.isdigit():                                 # solution
+        if c.isdigit():  # solution
             # add one to the number of digits
-            num_digits += 1                             # solution
+            num_digits += 1  # solution
         # if the character c is a letter (c.isalpha())
-        if c.isalpha():                                 # solution
+        if c.isalpha():  # solution
             # add one to the number of letters
-            num_letters += 1                            # solution
+            num_letters += 1  # solution
     # return number of letters, number of digits
-    return num_letters, num_digits                      # solution
+    return num_letters, num_digits  # solution
     # pass                                              # problem

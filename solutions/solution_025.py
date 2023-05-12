@@ -8,11 +8,12 @@
 # Do it without pseudocode, this time, from memory. Don't look
 # at the last one you just wrote unless you really must.
 
+
 def calculate_sum(values):
-    if len(values) == 0:                                # solution
-        return None                                     # solution
-    sum = 0                                             # solution
-    for item in values:                                 # solution
-        sum = sum + item                                # solution
-    return sum                                          # solution
+    if len(values) == 0:  # solution
+        return None  # solution
+    sum = 0  # solution
+    for item in values:  # solution
+        sum = sum + item  # solution
+    return sum  # solution
     # pass                                              # problem

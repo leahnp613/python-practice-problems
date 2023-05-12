@@ -8,22 +8,23 @@
 #
 # There is pseudocode to guide you.
 
+
 def gear_for_day(is_workday, is_sunny):
     # Create an empty list that will hold the different gear
     # gear = new empty list
     gear = []
     # If it is a workday and it is not sunny
-    if is_workday and not is_sunny:                     # solution
+    if is_workday and not is_sunny:  # solution
         # Add "umbrella" to gear
         # gear.append("umbrella")
-        gear.append("umbrella")                         # solution
+        gear.append("umbrella")  # solution
     # If it is a workday
-    if is_workday:                                      # solution
+    if is_workday:  # solution
         # Add "laptop" to gear
-        gear.append("laptop")                           # solution
+        gear.append("laptop")  # solution
     # Otherwise
-    else:                                               # solution
+    else:  # solution
         # Add "surfboard" to gear
-        gear.append("surfboard")                        # solution
+        gear.append("surfboard")  # solution
     # Return the list of gear
-    return gear                                         # solution
+    return gear  # solution

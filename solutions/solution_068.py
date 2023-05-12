@@ -26,27 +26,28 @@
 
 
 # class Person
-class Person:                                                       # solution
+class Person:  # solution
     # method initializer with name, hated foods list, and loved foods list
-    def __init__(self, name, hated_foods, loved_foods):             # solution
+    def __init__(self, name, hated_foods, loved_foods):  # solution
         # self.name = name
-        self.name = name                                            # solution
+        self.name = name  # solution
         # self.hated_foods = hated_foods
-        self.hated_foods = hated_foods                              # solution
+        self.hated_foods = hated_foods  # solution
         # self.loved_foods = loved_foods
-        self.loved_foods = loved_foods                              # solution
-                                                                    # noqa # solution
+        self.loved_foods = loved_foods  # solution
+        # noqa # solution
+
     # method taste(self, food)
-    def taste(self, food):                                          # noqa # solution
+    def taste(self, food):  # noqa # solution
         # if food is in self.hated_foods
-        if food in self.hated_foods:                                # solution
+        if food in self.hated_foods:  # solution
             # return False
-            return False                                            # solution
+            return False  # solution
         # otherwise, if food is in self.loved_foods
-        elif food in self.loved_foods:                              # solution
+        elif food in self.loved_foods:  # solution
             # return True
-            return True                                             # solution
+            return True  # solution
         # otherwise
-        else:                                                       # solution
+        else:  # solution
             # return None
-            return None                                             # solution
+            return None  # solution

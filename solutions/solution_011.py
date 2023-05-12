@@ -5,9 +5,10 @@
 # Try to remember how you did the last exercise and
 # do similarly, here.
 
+
 def is_divisible_by_5(number):
-    if number % 5 == 0:                                 # solution
-        return "buzz"                                   # solution
-    else:                                               # solution
-        return number                                   # solution
+    if number % 5 == 0:  # solution
+        return "buzz"  # solution
+    else:  # solution
+        return number  # solution
     # pass                                              # problem

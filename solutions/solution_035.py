@@ -23,13 +23,14 @@
 # Do it without pseudocode, this time, from memory. Don't look
 # at the last one you just wrote unless you really must.
 
+
 def count_letters_and_digits(s):
-    num_letters = 0                                     # solution
-    num_digits = 0                                      # solution
-    for c in s:                                         # solution
-        if c.isdigit():                                 # solution
-            num_digits += 1                             # solution
-        if c.isalpha():                                 # solution
-            num_letters += 1                            # solution
-    return num_letters, num_digits                      # solution
+    num_letters = 0  # solution
+    num_digits = 0  # solution
+    for c in s:  # solution
+        if c.isdigit():  # solution
+            num_digits += 1  # solution
+        if c.isalpha():  # solution
+            num_letters += 1  # solution
+    return num_letters, num_digits  # solution
     # pass                                              # problem

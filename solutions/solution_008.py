@@ -7,6 +7,7 @@
 # Do it without pseudocode, this time, from memory. Don't look
 # at the last one you just wrote unless you really must.
 
+
 def is_palindrome(word):
     # Reverse the word into a list of letters
     # "hello" becomes ["o", "l", "l", "e", "h"]
@@ -16,8 +17,8 @@ def is_palindrome(word):
     # ["o", "l", "l", "e", "h"] becomes "olleh"
     reversed_word = "".join(reversed_list_of_letters)
 
-    if reversed_word == word:                                   # solution
-        return True                                             # solution
-    else:                                                       # solution
-        return False                                            # solution
+    if reversed_word == word:  # solution
+        return True  # solution
+    else:  # solution
+        return False  # solution
     # pass                                                      # problem

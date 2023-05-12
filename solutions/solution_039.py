@@ -15,9 +15,10 @@
 # Do it without pseudocode, this time, from memory. Don't look
 # at the last one you just wrote unless you really must.
 
+
 def reverse_dictionary(dictionary):
-    new_dictionary = {}                                 # solution
-    for key, value in dictionary.items():               # solution
-        new_dictionary[value] = key                     # solution
-    return new_dictionary                               # solution
+    new_dictionary = {}  # solution
+    for key, value in dictionary.items():  # solution
+        new_dictionary[value] = key  # solution
+    return new_dictionary  # solution
     # pass                                              # problem

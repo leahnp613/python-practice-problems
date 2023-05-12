@@ -21,4 +21,3 @@
 #       returns: {"OH": ["Cleveland", "Columbus"], "IL": ["Chicago"]}
 #
 # You may want to look up the ".strip()" method for the string.
-

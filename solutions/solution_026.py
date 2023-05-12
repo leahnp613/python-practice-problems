@@ -12,21 +12,22 @@
 #     and less than 70
 #   * An "F" for any other average
 
+
 def calculate_grade(values):
-    if len(values) == 0:                                # solution
-        return None                                     # solution
-    sum = 0                                             # solution
-    for item in values:                                 # solution
-        sum = sum + item                                # solution
-    average = sum / len(values)                         # solution
-    if average >= 90:                                   # solution
-        return "A"                                      # solution
-    elif average >= 80:                                 # solution
-        return "B"                                      # solution
-    elif average >= 70:                                 # solution
-        return "C"                                      # solution
-    elif average >= 60:                                 # solution
-        return "D"                                      # solution
-    else:                                               # solution
-        return "F"                                      # solution
+    if len(values) == 0:  # solution
+        return None  # solution
+    sum = 0  # solution
+    for item in values:  # solution
+        sum = sum + item  # solution
+    average = sum / len(values)  # solution
+    if average >= 90:  # solution
+        return "A"  # solution
+    elif average >= 80:  # solution
+        return "B"  # solution
+    elif average >= 70:  # solution
+        return "C"  # solution
+    elif average >= 60:  # solution
+        return "D"  # solution
+    else:  # solution
+        return "F"  # solution
     # pass                                              # problem

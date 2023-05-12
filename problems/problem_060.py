@@ -12,4 +12,3 @@
 #       returns: []
 #     * input:   [1, 3, 5, 7]
 #       returns: [1, 3, 5, 7]
-

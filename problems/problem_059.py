@@ -14,4 +14,3 @@
 #   * Generate all the numbers that are divisible by 5
 #     and 7 into a list
 #   * Use random.choice to select one
-

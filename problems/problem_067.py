@@ -22,16 +22,15 @@
 #
 # There is pseudocode availabe for you to guide you
 
-
 # class Employee
-    # method initializer method with required state
-    # parameters first name and last name
-        # set self.first_name = first_name
-        # set self.last_name = last_name
+# method initializer method with required state
+# parameters first name and last name
+# set self.first_name = first_name
+# set self.last_name = last_name
 
-    # method get_fullname(self)
-        # returns self.first_name + " " + self.last_name
+# method get_fullname(self)
+# returns self.first_name + " " + self.last_name
 
-    # method get_email(self)
-        # returns self.first_name.lower() + "." + self.last_name.lower()
-        #         + "@company.com"
+# method get_email(self)
+# returns self.first_name.lower() + "." + self.last_name.lower()
+#         + "@company.com"

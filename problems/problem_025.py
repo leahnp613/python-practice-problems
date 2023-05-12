@@ -6,5 +6,6 @@
 # return None
 #
 
+
 def calculate_sum(values):
     pass

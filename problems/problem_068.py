@@ -24,16 +24,15 @@
 #    print(person.taste("sauerkraut"))  # Prints False, in the hated list
 #    print(person.taste("pizza"))       # Prints True, in the loved list
 
-
 # class Person
-    # method initializer with name, hated foods list, and loved foods list
-        # self.name = name
-        # self.hated_foods = hated_foods
-        # self.loved_foods = loved_foods
-    # method taste(self, food)
-        # if food is in self.hated_foods
-            # return False
-        # otherwise, if food is in self.loved_foods
-            # return True
-        # otherwise
-            # return None
+# method initializer with name, hated foods list, and loved foods list
+# self.name = name
+# self.hated_foods = hated_foods
+# self.loved_foods = loved_foods
+# method taste(self, food)
+# if food is in self.hated_foods
+# return False
+# otherwise, if food is in self.loved_foods
+# return True
+# otherwise
+# return None

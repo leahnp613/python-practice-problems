@@ -5,6 +5,7 @@
 #
 # Pseudocode is provided for you to guide you along the way.
 
+
 def minimum_value(value1, value2):
     if value1 < value2:
         return value1

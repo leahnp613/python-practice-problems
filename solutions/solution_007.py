@@ -6,6 +6,7 @@
 #
 # There is pseudocode to guide you.
 
+
 def is_palindrome(word):
     # Reverse the word into a list of letters
     # "hello" becomes ["o", "l", "l", "e", "h"]
@@ -16,11 +17,11 @@ def is_palindrome(word):
     reversed_word = "".join(reversed_list_of_letters)
 
     # If reversed_word equals word
-    if reversed_word == word:                                   # solution
+    if reversed_word == word:  # solution
         # return True
-        return True                                             # solution
+        return True  # solution
     # Otherwise
-    else:                                                       # solution
+    else:  # solution
         # return False
-        return False                                            # solution
+        return False  # solution
     # pass                                                      # problem

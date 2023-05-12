@@ -19,6 +19,3 @@
 # at the last one you just wrote unless you really must.
 
 import math
-
-
-

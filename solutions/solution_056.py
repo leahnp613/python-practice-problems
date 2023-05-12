@@ -15,5 +15,6 @@
 #       parameter 2: 0
 #     returns: "92380"
 
-def num_concat(m, n):           # solution
-    return str(m) + str(n)      # solution
+
+def num_concat(m, n):  # solution
+    return str(m) + str(n)  # solution

@@ -24,23 +24,23 @@
 
 
 # class Employee
-class Employee:                                                     # solution
+class Employee:  # solution
     # method initializer method with required state
     # parameters first name and last name
-    def __init__(self, first_name, last_name):                      # solution
+    def __init__(self, first_name, last_name):  # solution
         # set self.first_name = first_name
-        self.first_name = first_name                                # solution
+        self.first_name = first_name  # solution
         # set self.last_name = last_name
-        self.last_name = last_name                                  # solution
+        self.last_name = last_name  # solution
 
     # method get_fullname(self)
-    def get_fullname(self):                                         # solution
+    def get_fullname(self):  # solution
         # returns self.first_name + " " + self.last_name
-        return self.first_name + " " + self.last_name               # solution
+        return self.first_name + " " + self.last_name  # solution
 
     # method get_email(self)
-    def get_email(self):                                            # solution
+    def get_email(self):  # solution
         # returns self.first_name.lower() + "." + self.last_name.lower()
         #         + "@company.com"
-        name = (self.first_name + "." + self.last_name).lower()     # solution
-        return name + "@company.com"                                # solution
+        name = (self.first_name + "." + self.last_name).lower()  # solution
+        return name + "@company.com"  # solution

@@ -13,11 +13,12 @@
 # Write out some pseudocode before trying to solve the
 # problem to get a good feel for how to solve it.
 
+
 def sum_of_squares(values):
-    if len(values) <= 1:                                # solution
-        return None                                     # solution
-    result = 0                                          # solution
-    for value in values:                                # solution
-        result += value * value                         # solution
-    return result                                       # solution
+    if len(values) <= 1:  # solution
+        return None  # solution
+    result = 0  # solution
+    for value in values:  # solution
+        result += value * value  # solution
+    return result  # solution
     # pass                                              # problem

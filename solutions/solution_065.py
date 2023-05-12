@@ -17,10 +17,11 @@
 #
 # You may want to look at the built-in "abs" function
 
-def biggest_gap(nums):                          # solution
-    max_gap = abs(nums[1] - nums[0])            # solution
-    for i in range(1, len(nums) - 1):           # solution
-        gap = abs(nums[i + 1] - nums[i])        # solution
-        if gap > max_gap:                       # solution
-            max_gap = gap                       # solution
-    return max_gap                              # solution
+
+def biggest_gap(nums):  # solution
+    max_gap = abs(nums[1] - nums[0])  # solution
+    for i in range(1, len(nums) - 1):  # solution
+        gap = abs(nums[i + 1] - nums[i])  # solution
+        if gap > max_gap:  # solution
+            max_gap = gap  # solution
+    return max_gap  # solution

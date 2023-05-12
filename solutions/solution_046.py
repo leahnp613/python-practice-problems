@@ -27,12 +27,13 @@
 # Do it without pseudocode, this time, from memory. Don't look
 # at the last one you just wrote unless you really must.
 
+
 def make_sentences(subjects, verbs, objects):
-    sentences = []                                      # solution
-    for subject in subjects:                            # solution
-        for verb in verbs:                              # solution
-            for object in objects:                      # solution
-                sentence = subject + " " + verb + " " + object      # solution
-                sentences.append(sentence)              # solution
-    return sentences                                    # solution
+    sentences = []  # solution
+    for subject in subjects:  # solution
+        for verb in verbs:  # solution
+            for object in objects:  # solution
+                sentence = subject + " " + verb + " " + object  # solution
+                sentences.append(sentence)  # solution
+    return sentences  # solution
     # pass                                              # problem

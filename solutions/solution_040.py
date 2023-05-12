@@ -20,23 +20,24 @@
 #
 # There is pseudocode to guide you.
 
+
 def add_csv_lines(csv_lines):
     # result_list = new empty list
-    result_list = []                                    # solution
+    result_list = []  # solution
     # for each item in the csv_lines
-    for item in csv_lines:                              # solution
+    for item in csv_lines:  # solution
         # pieces = split the item on the comma
-        pieces = item.split(",")                        # solution
+        pieces = item.split(",")  # solution
         # line_sum = 0
-        line_sum = 0                                    # solution
+        line_sum = 0  # solution
         # for each piece in pieces
-        for piece in pieces:                            # solution
+        for piece in pieces:  # solution
             # value = convert the piece into an int
-            value = int(piece)                          # solution
+            value = int(piece)  # solution
             # add the value to sum
-            line_sum += value                           # solution
+            line_sum += value  # solution
         # append sum to the result_list
-        result_list.append(line_sum)                    # solution
+        result_list.append(line_sum)  # solution
     # return result_list
-    return result_list                                  # solution
+    return result_list  # solution
     # pass                                              # problem

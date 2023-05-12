@@ -21,24 +21,25 @@
 #
 # There is pseudocode for you to guide you.
 
+
 # class BankAccount
-class BankAccount:                                          # solution
+class BankAccount:  # solution
     # method initializer(self, balance)
-    def __init__(self, balance):                            # solution
+    def __init__(self, balance):  # solution
         # self.balance = balance
-        self.balance = balance                              # solution
+        self.balance = balance  # solution
 
     # method get_balance(self)
-    def get_balance(self):                                  # solution
+    def get_balance(self):  # solution
         # returns the balance
-        return self.balance                                 # solution
+        return self.balance  # solution
 
     # method withdraw(self, amount)
-    def withdraw(self, amount):                             # solution
+    def withdraw(self, amount):  # solution
         # reduces the balance by the amount
-        self.balance -= amount                              # solution
+        self.balance -= amount  # solution
 
     # method deposit(self, amount)
-    def deposit(self, amount):                              # solution
+    def deposit(self, amount):  # solution
         # increases the balance by the amount
-        self.balance += amount                              # solution
+        self.balance += amount  # solution

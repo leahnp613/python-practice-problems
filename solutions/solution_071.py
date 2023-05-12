@@ -24,14 +24,15 @@
 # at the last one you just wrote unless you really must.
 
 
-class Employee:                                                     # solution
-    def __init__(self, first_name, last_name):                      # solution
-        self.first_name = first_name                                # solution
-        self.last_name = last_name                                  # solution
+class Employee:  # solution
 
-    def get_fullname(self):                                         # solution
-        return self.first_name + " " + self.last_name               # solution
+    def __init__(self, first_name, last_name):  # solution
+        self.first_name = first_name  # solution
+        self.last_name = last_name  # solution
 
-    def get_email(self):                                            # solution
-        name = (self.first_name + "." + self.last_name).lower()     # solution
-        return name + "@company.com"                                # solution
+    def get_fullname(self):  # solution
+        return self.first_name + " " + self.last_name  # solution
+
+    def get_email(self):  # solution
+        name = (self.first_name + "." + self.last_name).lower()  # solution
+        return name + "@company.com"  # solution
