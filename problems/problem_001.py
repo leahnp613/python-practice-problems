@@ -9,12 +9,14 @@
 # problem to get a good feel for how to solve it.
 
 def minimum_value(value1, value2):
-#compare values 
-   if value1 < value2:
+    # compare values 
+    if value1 < value2:
         return value1
-    else:return value2
+    else:
+        return value2
 
-return_value = minimum_value(4,21)
+
+return_value = minimum_value(4, 21)
 
 print(return_value)
 
