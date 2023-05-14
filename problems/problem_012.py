@@ -17,4 +17,23 @@
 
 
 def fizzbuzz(number):
-    pass
+    #define the function fizzbuzz
+    #if a number is divisible by both 3 and 5
+    if number % 3 == 0 and number % 5 == 0:
+    #return "fizzbuzz"
+        return "fizzbuzz"
+    #if number is divisible only by 3
+    if number % 3 == 0:
+    #return "fizz"
+        return "fizz"
+    #if number is divisible only by 5
+    if number % 5 == 0:
+    #return "buzz"
+        return "buzz"
+
+    #return number if not divisible by either, simple return
+    return number
+    #call fizzbuzz(15) and print it
+
+
+print(fizzbuzz(15))
