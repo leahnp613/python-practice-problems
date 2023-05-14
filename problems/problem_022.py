@@ -8,4 +8,24 @@
 
 
 def gear_for_day(is_workday, is_sunny):
-    pass
+    gear = []
+    #define gear_for_day which returns a list of strings
+    if is_sunny == False and is_workday == True:
+        gear.append("umbrella")
+    #if is_sunny == False and is_workday ==True 
+        #return gear_for_day.append("umbrella")
+    if is_workday == True:
+         gear.append("laptop")
+    #if is_workday == True
+    #   return gear_for_day.append("laptop")
+    if is_workday == False:
+        gear.append("surfboard")
+    return gear
+    # if is_workday == False
+    #   return gear_for_day.append("surfboard")
+print(gear_for_day(True, False))
+print(gear_for_day(True, True))
+print(gear_for_day(False, False))
+    #print(gear_for_day(True,False))
+    #print(gear_for_day(True, True))
+    #print(gear_for_day(False,False))
