@@ -11,7 +11,7 @@
 
 
 def can_skydive(age, has_consent_form):
-    #if age >=18
+    # if age >=18
     return age >= 18 and has_consent_form
 
 

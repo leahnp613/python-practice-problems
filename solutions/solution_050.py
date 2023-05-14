@@ -15,8 +15,8 @@
 
 def halve_the_list(input):  # solution
     return (  # solution
-        input[0:len(input) // 2 + (len(input) % 2)],  # solution
-        input[len(input) // 2 + (len(input) % 2):],  # solution
+        input[0 : len(input) // 2 + (len(input) % 2)],  # solution
+        input[len(input) // 2 + (len(input) % 2) :],  # solution
     )  # solution
     # noqa # solution
 

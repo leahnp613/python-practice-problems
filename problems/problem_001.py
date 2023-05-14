@@ -21,9 +21,9 @@ return_value = minimum_value(4, 21)
 
 print(return_value)
 
-#if value 1 is bigger, then return it
-#if value 2 is bigger, then return it
+# if value 1 is bigger, then return it
+# if value 2 is bigger, then return it
 
-#function needs to be called
-#get the result
+# function needs to be called
+# get the result
 #  print the result

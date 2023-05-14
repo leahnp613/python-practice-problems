@@ -20,10 +20,10 @@
 
 def is_inside_bounds(x, y, rect_x, rect_y, rect_width, rect_height):
     if (  # solution
-            x >= rect_x  # solution
-            and y >= rect_y  # solution
-            and x <= rect_x + rect_width  # solution
-            and y <= rect_y + rect_height  # solution
+        x >= rect_x  # solution
+        and y >= rect_y  # solution
+        and x <= rect_x + rect_width  # solution
+        and y <= rect_y + rect_height  # solution
     ):  # solution
         return True  # solution
     else:  # solution

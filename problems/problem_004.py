@@ -16,9 +16,9 @@
 def max_of_three(value1, value2, value3):
     # find the max of the inputs
     return max([value1, value2, value3])
-    #call the function
+    # call the function
 
 
 maximum = max_of_three(12, 18, 22)
-#print
+# print
 print(maximum)

@@ -12,7 +12,7 @@
 # Write out some pseudocode before trying to solve the
 # problem to get a good feel for how to solve it.
 
-#set word to example palindrome
+# set word to example palindrome
 word = "racecar"
 
 
@@ -22,6 +22,6 @@ def is_palindrome(word):
 
 print(is_palindrome("racecar"))
 
-#slice and join word and return new list
-#if new list is == word then return True
-#else return False
+# slice and join word and return new list
+# if new list is == word then return True
+# else return False

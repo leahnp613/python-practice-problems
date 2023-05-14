@@ -43,11 +43,11 @@
 
 
 class Animal:  # solution
-
     def __init__(self, number_of_legs, primary_color):  # solution
         self.number_of_legs = number_of_legs  # solution
         self.primary_color = primary_color  # solution
         # solution
+
     def describe(self):  # solution
         return (  # solution
             self.__class__.__name__  # solution
@@ -57,26 +57,26 @@ class Animal:  # solution
             + self.primary_color  # solution
         )  # solution
 
+        # solution
+        # solution
 
-        # solution
-        # solution
+
 class Dog(Animal):  # solution
-
     def speak(self):  # solution
         return "Bark!"  # solution
 
+        # solution
+        # solution
 
-        # solution
-        # solution
+
 class Cat(Animal):  # solution
-
     def speak(self):  # solution
         return "Miao!"  # solution
 
+        # solution
+        # solution
 
-        # solution
-        # solution
+
 class Snake(Animal):  # solution
-
     def speak(self):  # solution
         return "Sssssss!"  # solution

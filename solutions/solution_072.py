@@ -29,12 +29,12 @@
 
 
 class Person:  # solution
-
     def __init__(self, name, hated_foods, loved_foods):  # solution
         self.name = name  # solution
         self.hated_foods = hated_foods  # solution
         self.loved_foods = loved_foods  # solution
         # noqa # solution
+
     def taste(self, food):  # noqa # solution
         if food in self.hated_foods:  # solution
             return False  # solution

@@ -21,7 +21,6 @@
 
 
 class Book:  # solution
-
     def __init__(self, author, title):  # solution
         self.author = author  # solution
         self.title = title  # solution

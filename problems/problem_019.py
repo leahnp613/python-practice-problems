@@ -16,4 +16,20 @@
 
 
 def is_inside_bounds(x, y, rect_x, rect_y, rect_width, rect_height):
-    pass
+    # define is_inside_bounds which has 6 parameters
+    # if x>= rect_x and y>=rect_y and x <= rect_x + rect_width and y <= rect_y +rect_height
+
+    if (
+        x >= rect_x
+        and y >= rect_y
+        and x <= rect_x + rect_width
+        and y <= rect_y + rect_height
+    ):
+        return True
+    return False
+
+
+print(is_inside_bounds(12, 8, 4, 2, 21, 19))
+print(is_inside_bounds(12, 9, 22, 19, 31, 61))
+# print(is_inside_bounds(12,8,4,2,1))
+# print(is_inside_bounds(12,9,22,19,31))

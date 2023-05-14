@@ -22,7 +22,6 @@ import math
 
 
 class Circle:  # solution
-
     def __init__(self, radius):  # solution
         if radius < 0:  # solution
             raise ValueError  # solution

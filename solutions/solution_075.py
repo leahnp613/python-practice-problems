@@ -24,7 +24,6 @@
 
 
 class BankAccount:  # solution
-
     def __init__(self, balance):  # solution
         self.balance = balance  # solution
 

@@ -16,7 +16,6 @@
 
 
 class ReceiptItem:  # solution
-
     def __init__(self, quantity, price):  # solution
         self.quantity = quantity  # solution
         self.price = price  # solution

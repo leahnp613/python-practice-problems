@@ -12,7 +12,7 @@
 
 
 def is_divisible_by_3(number):
-    #define the function called is_divisible_by_3
+    # define the function called is_divisible_by_3
     if (number % 3) == 0:
         return "fizz"
     else:
@@ -21,5 +21,5 @@ def is_divisible_by_3(number):
 
 print(is_divisible_by_3(6))
 
-#if value in number %3
-#return "fizz"
+# if value in number %3
+# return "fizz"

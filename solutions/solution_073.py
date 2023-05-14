@@ -24,7 +24,6 @@
 
 
 class Student:  # solution
-
     def __init__(self, name):  # solution
         self.name = name  # solution
         self.scores = []  # solution
