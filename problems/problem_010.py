@@ -18,8 +18,8 @@ def is_divisible_by_3(number):
     else:
         return number
 
+
 print(is_divisible_by_3(6))
 
-    #if value in number %3
-    #return "fizz"
-
+#if value in number %3
+#return "fizz"

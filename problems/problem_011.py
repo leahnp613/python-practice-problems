@@ -9,4 +9,15 @@
 
 
 def is_divisible_by_5(number):
-    pass
+    #define the function is_divisible_by_5
+    if (number % 5) == 0:
+        #if the value in the number parameter is divisible by 5
+        #return "buzz" string
+        return "buzz"
+
+    #else return the number
+    else:
+        return number
+
+
+print(is_divisible_by_5(5))
