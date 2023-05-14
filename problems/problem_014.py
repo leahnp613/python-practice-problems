@@ -11,5 +11,17 @@
 # problem to get a good feel for how to solve it.
 
 
-def can_make_pasta(ingredients):
-    pass
+from typing import List
+
+
+def can_make_pasta(ingredients: List[str]):
+#define can_make_pasta that passes a list
+  return ["flour", "eggs", "oil"] == ingredients
+    #if list has "flour", "eggs", and "oil"
+
+    #return True
+
+    #else return False
+#print(can_make_pasta(ingredients))
+print(can_make_pasta(["parsley", "oil", "potato"]))
+print(can_make_pasta(["flour", "eggs", "oil"]))
