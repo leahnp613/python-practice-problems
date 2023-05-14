@@ -4,4 +4,13 @@
 
 
 def is_inside_bounds(x, y):
-    pass
+  #define is_inside_bounds
+  #if x =< 10 and x >= 0 and y <= 10 and y >= 0
+    #return True
+  if x <= 10 and x >= 0 and y <= 10 and y >= 0:
+    return True
+  else:
+    return False
+#print(is_inside_bounds(2,5))
+print(is_inside_bounds(2,5))
+print(is_inside_bounds(12,5))
