@@ -4,10 +4,10 @@
 
 
 def has_quorum(attendees_list, members_list):
-  #define has_quorum
-  #len of each list
-  #if len of attendees list is 50% of len of members list
-  #if num in attendees_list >= .5 
+    # define has_quorum
+    # len of each list
+    # if len of attendees list is 50% of len of members list
+    # if num in attendees_list >= .5
     pass
 
 
