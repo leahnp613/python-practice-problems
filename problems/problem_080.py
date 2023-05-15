@@ -34,3 +34,24 @@
 
 # method get_total(self)
 # return self.get_subtotal() * (1 + self.tax_rate)
+
+class Receipt:
+    def _init_(self, tax_rate, items):
+        self.tax_rate = tax_rate
+        self.items = []
+    
+    def add_item(self, items):
+        self.items.append
+    
+    def get_subtotal(self):
+        sum = 0
+        for item in self.items:
+            sum += item.get_total()
+        return sum
+    
+    def get_total(self):
+        return self.get_subtotal() * (1 + self.tax_rate)
+
+    
+    
+    
