@@ -30,3 +30,19 @@ import math
 
 # method calculate_area(self)
 # returns math.pi * (self.radius squared)
+
+
+class Circle:
+    def _init_ (self, radius):
+        self.radius = radius
+
+    def get_radius(self, radius):
+        if radius < 0:
+            return ValueError
+        self.radius = radius
+
+    def calculate_perimeter(self):
+        return 2 * math.pi * self.radius
+    
+    def calcuate_area(self):
+        return math.pi * (self.radius **2)
