@@ -19,3 +19,17 @@
 # at the last one you just wrote unless you really must.
 
 import math
+
+class Circle:
+    def _init_ (self, radius):
+
+        def get_radius(self, radius):
+         if radius > 0:
+            return ValueError
+        self.radius = radius
+    
+    def calculate_perimeter(self):
+        return 2 * math.pi * self.radius
+    
+    def calcuate_area(self):
+        return math.pi * (self.radius **2)
