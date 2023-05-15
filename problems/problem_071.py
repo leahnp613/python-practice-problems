@@ -22,3 +22,19 @@
 #
 # Do it without pseudocode, this time, from memory. Don't look
 # at the last one you just wrote unless you really must.
+
+class Employee:
+    def _init_(self, first_name, last_name):
+        self.first_name = first_name
+        self.last_name = last_name
+
+    def get_fullname(self):
+        return "<<first_name>> <<last_name>>"
+
+    def get_email(self):
+        return "<<first_name>> <<last_name>>"
+
+employee = Employee("Duska", "Ruzicka")
+print(employee.get_fullname())
+print(employee.get_email())
+
