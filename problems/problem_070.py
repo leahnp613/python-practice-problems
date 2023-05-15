@@ -26,8 +26,8 @@ from turtle import title
 class Book:
     def _init_(self, author_name, title):
 
-    self.author = author
-    self.title = title
+        self.author = author
+        self.title = title
 
     def get_author(self) :
         return "Author: <<author_name>>"
@@ -37,4 +37,3 @@ class Book:
     
     print(book.get_author())
     print(book.get_title())
-    
