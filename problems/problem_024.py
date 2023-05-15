@@ -8,7 +8,6 @@
 # Pseudocode is available for you
 
 
-
 def calculate_average(values):
     # If there are no items in the list of values
     if len(values) == 0:  # solution
@@ -25,4 +24,4 @@ def calculate_average(values):
     return sum / len(values)  # solution
 
     print(calculate_average(12, 14, 127))
-    # pass    
+    # pass
