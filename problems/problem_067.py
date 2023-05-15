@@ -45,5 +45,5 @@ class Employee:
     def get_fullname(self):
       return self.first_name + " " + self.last_name
 
-    def get_email(self)
+    def get_email(self):
       return  self.first_name.lower() + self.last_name.lower() +"@company.com"
