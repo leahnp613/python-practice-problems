@@ -18,3 +18,23 @@
 #
 # Do it without pseudocode, this time, from memory. Don't look
 # at the last one you just wrote unless you really must.
+
+from multiprocessing import AuthenticationError
+from turtle import title
+
+
+class Book:
+    def _init_(self, author_name, title):
+
+    self.author = author
+    self.title = title
+
+    def get_author(self) :
+        return "Author: <<author_name>>"
+
+    def get_title(self):
+        return "Title: <<title>>"
+    
+    print(book.get_author())
+    print(book.get_title())
+    
