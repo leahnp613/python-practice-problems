@@ -15,4 +15,10 @@
 
 
 def sum_of_squares(values):
-    pass
+    if len(values) <= 1:  # solution
+        return None  # solution
+    result = 0  # solution
+    for value in values:  # solution
+        result += value * value  # solution
+    return result  # solution
+    # pass                                              # problem

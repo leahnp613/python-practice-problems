@@ -17,4 +17,12 @@
 
 
 def sum_of_first_n_numbers(limit):
-    pass
+    #define sum_of_first_n_numbers that accepts a number limit
+    #return sum from 0 up to and including limit  return sum(range(limit + 1))
+    if limit < 0:
+        return None
+    return sum(range(limit + 1))
+
+print(sum_of_first_n_numbers(-1))
+print(sum_of_first_n_numbers(0))
+print(sum_of_first_n_numbers(5))
