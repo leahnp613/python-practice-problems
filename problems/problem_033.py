@@ -17,4 +17,16 @@
 
 
 def sum_of_first_n_even_numbers(n):
-    pass
+    if n < 0:
+        return None
+    sum = 0
+    for i in range(n +1):
+        sum = sum + i * 2
+    
+    return sum
+
+
+
+print(sum_of_first_n_even_numbers(-1))
+print(sum_of_first_n_even_numbers(0))
+print(sum_of_first_n_even_numbers(5))
