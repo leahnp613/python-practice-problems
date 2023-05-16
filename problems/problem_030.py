@@ -13,4 +13,14 @@
 
 
 def find_second_largest(values):
-    pass
+    if len(values) <= 1:
+        return None
+    max_value = values[0]
+    second_largest = None
+    for value in values[1:]:
+        if value > max_value:
+            second_largest = max_value
+            max_value = value
+        elif second_largest is None or value > second_largest:
+            second_largest = value
+    return second_largest
