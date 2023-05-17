@@ -14,3 +14,13 @@
 #      returns: "this is a string"
 #    * input:   "raise"
 #      RAISES:  ValueError
+
+def check_input(value):
+    if value == "raise":
+        return ValueError
+    else: 
+        return value
+
+
+print(check_input(3))
+print(check_input("this is a string"))
