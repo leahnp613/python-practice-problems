@@ -19,4 +19,9 @@
 
 
 def translate(key_list, dictionary):
-    pass
+    result = []  # solution
+    for key in key_list:  # solution
+        result.append(dictionary.get(key))  # solution
+    return result  # solution
+    # pass                                              # problem
+
