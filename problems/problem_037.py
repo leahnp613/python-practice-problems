@@ -25,4 +25,8 @@
 
 
 def pad_left(number, length, pad):
-    pass
+    s = str(number)  # solution
+    while len(s) < length:  # solution
+        s = pad + s  # solution
+    return s  # solution
+    # pass                                  

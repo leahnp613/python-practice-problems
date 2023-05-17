@@ -20,6 +20,15 @@
 
 # Write out your own pseudocode to help guide you.
 
-
 def add_csv_lines(csv_lines):
-    pass
+    result_list = []  # solution
+    for item in csv_lines:  # solution
+        pieces = item.split(",")  # solution
+        line_sum = 0  # solution
+        for piece in pieces:  # solution
+            value = int(piece)  # solution
+            line_sum += value  # solution
+        result_list.append(line_sum)  # solution
+    return result_list  # solution
+    # pass                                              # problem
+

@@ -14,4 +14,8 @@
 
 
 def reverse_dictionary(dictionary):
-    pass
+    new_dictionary = {}  # solution
+    for key, value in dictionary.items():  # solution
+        new_dictionary[value] = key  # solution
+    return new_dictionary  # solution
+    # pass                                              # problem
