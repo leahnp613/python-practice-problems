@@ -21,3 +21,13 @@
 #       returns: {"OH": ["Cleveland", "Columbus"], "IL": ["Chicago"]}
 #
 # You may want to look up the ".strip()" method for the string.
+
+def group_cities_by_state(cities):  # solution
+    output = {}  # solution
+    for city in cities:  # solution
+        name, state = city.split(",")  # solution
+        state = state.strip()  # solution
+        if state not in output:  # solution
+            output[state] = []  # solution
+        output[state].append(name)  # solution
+    return output  # solution
