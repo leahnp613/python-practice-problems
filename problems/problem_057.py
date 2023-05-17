@@ -12,3 +12,11 @@
 #       returns: 1/2 + 2/3
 #     * input:   3
 #       returns: 1/2 + 2/3 + 3/4
+
+def sum_fraction_sequence(num):
+    return num/(num +1)
+
+
+print(sum_fraction_sequence(1))
+print(sum_fraction_sequence(2))
+
