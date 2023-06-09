@@ -5,13 +5,13 @@
 #
 
 
-#def max_in_list(values):
- #   if len(values) == 0:
-  #      return None                            INITIAL ATTEMPT, SOLUTION BELOW TO STUDY
-   # max(values) == max_in_list()
-    
-#print(max_in_list([12, 13, 89]))
-#print(max_in_list([]))
+# def max_in_list(values):
+#   if len(values) == 0:
+#      return None                            INITIAL ATTEMPT, SOLUTION BELOW TO STUDY
+# max(values) == max_in_list()
+
+# print(max_in_list([12, 13, 89]))
+# print(max_in_list([]))
 
 
 def max_in_list(values):

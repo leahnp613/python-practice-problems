@@ -26,7 +26,7 @@ def generate_lottery_numbers():  # noqa # solution
         if number not in numbers:  # solution
             numbers.append(number)  # solution
     return numbers  # solution
-    # noqa # solution 
+    # noqa # solution
 
 
 # or                                            # solution

@@ -12,8 +12,8 @@ def calculate_sum(values):
         return None
     sum = 0
     for item in values:
-        sum = sum + item 
+        sum = sum + item
     return sum
 
-print(calculate_sum([15, 14, 24, 98]))
 
+print(calculate_sum([15, 14, 24, 98]))

@@ -4,5 +4,7 @@ def shift_cipher(message, shift):
         xyz = ord(index)
         enc_message += chr(xyz + shift)
     return enc_message
+
+
 print(shift_cipher("abc", 1))
 print(shift_cipher("Raining-Frogs", -10))

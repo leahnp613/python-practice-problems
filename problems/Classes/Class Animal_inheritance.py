@@ -41,23 +41,32 @@
 # Behavior:
 #    * speak()          # Returns the string "Sssssss!"
 
-class Animal:
-    def _init_ (self, number_of_legs, primary_color):
-         self.number_of_legs = number_of_legs
-         self.primary_color = primary_color
-    
-    def describe(self):
-        return self._class_._name_ + "has" + str( self.number_of_legs) +"legs and is primarily" +self.primary_color
 
-class Dog (Animal):
+class Animal:
+    def _init_(self, number_of_legs, primary_color):
+        self.number_of_legs = number_of_legs
+        self.primary_color = primary_color
+
+    def describe(self):
+        return (
+            self._class_._name_
+            + "has"
+            + str(self.number_of_legs)
+            + "legs and is primarily"
+            + self.primary_color
+        )
+
+
+class Dog(Animal):
     def speak():
         return "Bark!"
-    
-class Cat (Animal):
+
+
+class Cat(Animal):
     def speak():
         return "Meow!"
+
 
 class Snake(Animal):
     def speak():
         return "Sssss!"
-

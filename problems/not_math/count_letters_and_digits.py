@@ -21,7 +21,6 @@
 #      return value1, value2
 
 
-
 def count_letters_and_digits(s):
     # number of letters = 0
     num_letters = 0  # solution
@@ -40,4 +39,3 @@ def count_letters_and_digits(s):
     # return number of letters, number of digits
     return num_letters, num_digits  # solution
     # pass                                              # problem
-    

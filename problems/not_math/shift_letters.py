@@ -21,6 +21,7 @@
 # You may want to look at the built-in Python functions
 # "ord" and "chr" for this problem
 
+
 def shift_letters(word):  # solution
     new_word = ""  # solution
     for letter in word:  # solution

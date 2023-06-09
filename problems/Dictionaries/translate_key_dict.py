@@ -24,4 +24,6 @@ def translate(key_list, dictionary):
         result.append(dictionary.get(key))  # solution
     return result  # solution
     # pass                                              # problem
+
+
 44

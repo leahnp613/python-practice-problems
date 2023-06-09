@@ -40,16 +40,14 @@ from unicodedata import name
 
 
 class Student:
- def _init_(self, name, scores):
+    def _init_(self, name, scores):
+        self.name = name
+        self.scores = []
 
-    self.name = name
-    self.scores = []
- 
- def add_score(self, score):
-    self.scores.append(score)
+    def add_score(self, score):
+        self.scores.append(score)
 
- def get_average(self):
-    if len(self.scores) == 0:
-        return None
-    return sum(self.scores) / len(self.scores)
-
+    def get_average(self):
+        if len(self.scores) == 0:
+            return None
+        return sum(self.scores) / len(self.scores)

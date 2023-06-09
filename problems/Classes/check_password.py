@@ -12,6 +12,7 @@
 # The string object has some methods that you may want to use,
 # like ".isalpha", ".isdigit", ".isupper", and ".islower"
 
+
 def check_password(password):
     has_lowercase_letter = False  # solution
     has_uppercase_letter = False  # solution

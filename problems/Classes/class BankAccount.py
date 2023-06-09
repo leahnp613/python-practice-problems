@@ -34,17 +34,16 @@
 # method deposit(self, amount)
 # increases the balance by the amount
 
-class  BankAccount:
-    def _init_(self, balance):
 
+class BankAccount:
+    def _init_(self, balance):
         self.balance = balance
 
     def get_balance(self):
         return self.balance
-    
+
     def deposit(self, amount):
         self.balance.append
 
     def withdraw(self, amount):
-        self.balance += amount 
-
+        self.balance += amount

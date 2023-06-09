@@ -27,6 +27,7 @@
 # add one to counts[word]
 # return counts
 
+
 def count_word_frequencies(sentences):
     words = sentences.split()
     counts = {}
@@ -35,5 +36,6 @@ def count_word_frequencies(sentences):
             counts[word] = 0
         counts[word] += 1
     return counts
+
 
 print(count_word_frequencies("I came I saw I learned"))

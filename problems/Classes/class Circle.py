@@ -33,7 +33,7 @@ import math
 
 
 class Circle:
-    def _init_ (self, radius):
+    def _init_(self, radius):
         self.radius = radius
 
     def get_radius(self, radius):
@@ -43,6 +43,6 @@ class Circle:
 
     def calculate_perimeter(self):
         return 2 * math.pi * self.radius
-    
+
     def calcuate_area(self):
-        return math.pi * (self.radius **2)
+        return math.pi * (self.radius**2)

@@ -28,6 +28,7 @@
 #     * input: 10
 #       returns:  "X"
 
+
 def simple_roman(number):  # solution
     lookup = {  # solution
         1: "I",  # solution
