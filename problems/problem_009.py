@@ -13,4 +13,6 @@
 # problem to get a good feel for how to solve it.
 
 def is_palindrome(word):
-    pass
+    return(''.join(reversed(word)))
+
+print(is_palindrome("racecar"))
