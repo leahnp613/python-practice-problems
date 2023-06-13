@@ -10,9 +10,10 @@
 
 def minimum_value(value1, value2):
 #compare values 
-   if value1 < value2:
+    if value1 < value2:
         return value1
-    else:return value2
+    else:
+        return value2
 
 return_value = minimum_value(4,21)
 
