@@ -13,4 +13,8 @@
 # problem to get a good feel for how to solve it.
 
 def max_of_three(value1, value2, value3):
-    pass
+    return max(value1, value2, value3)
+
+print(max_of_three(1, 2, 3))
+print(max_of_three(29, 12, 123))
+print(max_of_three(3, 3, 1))
