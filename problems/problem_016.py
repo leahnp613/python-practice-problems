@@ -3,4 +3,9 @@
 # make sure they're between 0 and 10, inclusive.
 
 def is_inside_bounds(x, y):
-    pass
+    if x <= 10 and x >= 0 and y <= 10 and y >= 0:
+        return True
+    
+print(is_inside_bounds(4, 8))
+print(is_inside_bounds(12,8))
+print(is_inside_bounds(12, 23))
